@@ -48,3 +48,6 @@ next-env.d.ts
 
 # Local
 .env*
+
+# Local backend config (contains account-specific bucket name)
+infra/backend.hcl
