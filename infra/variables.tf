@@ -9,3 +9,9 @@ variable "app_name" {
   type        = string
   default     = "orders-web-cicd"
 }
+
+variable "initial_image_tag" {
+  description = "Image tag used for the first task definition. Later deploys come from the pipeline."
+  type        = string
+  default     = "b6f35ce"
+}
